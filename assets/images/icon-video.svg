@@ -1,0 +1,32 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background shadow -->
+  <rect x="7" y="9" width="32" height="26" rx="4" fill="url(#paint0_linear)" opacity="0.2" />
+
+  <!-- Outer Window (with white background to hide shadow) -->
+  <rect x="4" y="6" width="32" height="26" rx="4" fill="#ffffff" />
+  <rect x="4" y="6" width="32" height="26" rx="4" stroke="url(#paint0_linear)" stroke-width="2.2" stroke-linejoin="round"/>
+  
+  <!-- Header line -->
+  <line x1="4" y1="13" x2="36" y2="13" stroke="url(#paint0_linear)" stroke-width="2.2" />
+  
+  <!-- Window Controls -->
+  <circle cx="9.5" cy="9.5" r="1.5" fill="url(#paint0_linear)" />
+  <circle cx="14.5" cy="9.5" r="1.5" fill="url(#paint0_linear)" opacity="0.5" />
+  
+  <!-- Video Screen -->
+  <rect x="9" y="16.5" width="22" height="11" rx="2" stroke="url(#paint0_linear)" stroke-width="2.2" stroke-linejoin="round"/>
+  
+  <!-- Play Button -->
+  <path d="M 17.5 19 L 23.5 22 L 17.5 25 Z" fill="url(#paint0_linear)" />
+  
+  <!-- Bottom bars -->
+  <rect x="9" y="29.5" width="10" height="2.5" rx="1.25" fill="url(#paint0_linear)" />
+  <rect x="21" y="29.5" width="10" height="2.5" rx="1.25" fill="url(#paint0_linear)" opacity="0.5" />
+
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+</svg>
