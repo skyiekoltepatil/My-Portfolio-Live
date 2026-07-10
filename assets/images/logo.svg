@@ -1,0 +1,40 @@
+<svg width="185" height="185" viewBox="0 0 185 185" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Importing elegant cursive script font -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap');
+      .sig-text {
+        font-family: 'Great Vibes', cursive;
+        font-size: 82px;
+        fill: #0B1E36;
+      }
+    </style>
+    <!-- Metallic gold gradient for the borders, dot, and underline swash -->
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5A059" />
+      <stop offset="25%" stop-color="#FDF6C7" />
+      <stop offset="50%" stop-color="#B38728" />
+      <stop offset="75%" stop-color="#FDF6C7" />
+      <stop offset="100%" stop-color="#916B23" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer gold gradient circle - expanded to r=89 to fill the viewport -->
+  <circle cx="92.5" cy="92.5" r="89" stroke="url(#gold-grad)" stroke-width="5" />
+
+  <!-- Off-white background circle -->
+  <circle cx="92.5" cy="92.5" r="86.5" fill="#FAF9F6" />
+
+  <!-- Inner thin dark blue circle - expanded to r=80 to maximize space -->
+  <circle cx="92.5" cy="92.5" r="80" stroke="#0B1E36" stroke-width="2.5" fill="none" />
+
+  <!-- Signature B. Kolte with custom gold dot (scaled up to 82px) -->
+  <g>
+    <text x="8" y="116" class="sig-text">B</text>
+    <circle cx="56" cy="118" r="4.5" fill="url(#gold-grad)" />
+    <text x="64" y="116" class="sig-text">Kolte</text>
+  </g>
+
+  <!-- Gold swash underline - extended to align with the larger text -->
+  <path d="M 15 125 Q 90 114 165 123" stroke="url(#gold-grad)" stroke-width="3.5" fill="none" stroke-linecap="round" />
+</svg>

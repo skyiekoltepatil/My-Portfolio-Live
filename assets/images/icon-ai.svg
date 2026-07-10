@@ -1,0 +1,28 @@
+<svg width="40" height="40" viewBox="2 2 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer hexagon lines -->
+  <path d="M20 6 L32.12 13 L32.12 27 L20 34 L7.88 27 L7.88 13 Z" stroke="url(#paint0_linear)" stroke-width="1.5" stroke-linejoin="round"/>
+  
+  <!-- Inner Y-connections -->
+  <line x1="20" y1="20" x2="7.88" y2="13" stroke="url(#paint0_linear)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="20" y1="20" x2="32.12" y2="13" stroke="url(#paint0_linear)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="20" y1="20" x2="20" y2="34" stroke="url(#paint0_linear)" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Nodes -->
+  <!-- Outer nodes -->
+  <circle cx="20" cy="6" r="1.8" fill="url(#paint0_linear)" />
+  <circle cx="32.12" cy="13" r="1.8" fill="url(#paint0_linear)" />
+  <circle cx="32.12" cy="27" r="1.8" fill="url(#paint0_linear)" />
+  <circle cx="20" cy="34" r="1.8" fill="url(#paint0_linear)" />
+  <circle cx="7.88" cy="27" r="1.8" fill="url(#paint0_linear)" />
+  <circle cx="7.88" cy="13" r="1.8" fill="url(#paint0_linear)" />
+  
+  <!-- Central node -->
+  <circle cx="20" cy="20" r="3.5" fill="url(#paint0_linear)" />
+
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+</svg>
