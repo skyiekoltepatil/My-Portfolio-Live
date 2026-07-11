@@ -4,7 +4,7 @@ A modern, responsive, and beautifully designed personal portfolio website built 
 
 ## 📸 Preview
 
-![Portfolio Preview](./website-demo-image/project-3.jpg)
+![Portfolio Preview](./website-demo-image/image.png)
 
 ## ✨ Features
 
