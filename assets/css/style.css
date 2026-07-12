@@ -1368,6 +1368,12 @@ textarea.form-input::-webkit-resizer {
   background: var(--bg-gradient-jet);
 }
 
+.form-status {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  margin-top: 10px;
+}
+
 
 
 
