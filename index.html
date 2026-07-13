@@ -525,7 +525,7 @@
       <article class="portfolio" data-page="projects">
 
         <header>
-          <h2 class="h2 article-title">Projects</h2>
+          <h2 class="h2 article-title">Portfolio</h2>
         </header>
 
         <section class="projects">
@@ -664,7 +664,13 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form name="contact" method="POST" class="form" data-netlify="true" netlify-honeypot="bot-field" data-form>
+
+            <input type="hidden" name="form-name" value="contact">
+
+            <p style="display: none;">
+              <label>Don't fill this out if you're human: <input name="bot-field"></label>
+            </p>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -678,6 +684,8 @@
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
+
+            <p class="form-status" data-form-status></p>
 
           </form>
 

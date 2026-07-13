@@ -79,6 +79,7 @@ for (let i = 0; i < filterBtn.length; i++) {
 const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
 const formBtn = document.querySelector("[data-form-btn]");
+const formStatus = document.querySelector("[data-form-status]");
 
 // add event to all form input field
 for (let i = 0; i < formInputs.length; i++) {
@@ -91,6 +92,29 @@ for (let i = 0; i < formInputs.length; i++) {
       formBtn.setAttribute("disabled", "");
     }
 
+  });
+}
+
+// submit the form via AJAX so the page doesn't reload
+if (form) {
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const data = new FormData(form);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(data).toString(),
+    })
+      .then(() => {
+        formStatus.textContent = "Thanks! Your message has been sent.";
+        form.reset();
+        formBtn.setAttribute("disabled", "");
+      })
+      .catch(() => {
+        formStatus.textContent = "Something went wrong. Please try again.";
+      });
   });
 }
 
