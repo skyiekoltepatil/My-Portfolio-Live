@@ -59,9 +59,3 @@ Feel free to reach out for collaborations or just a friendly chat!
 - **GitHub**: [@skyiekoltepatil](https://github.com/skyiekoltepatil)
 
 ---
-
-Copyright © 2026 Bhushan Kolte.
-
-This repository contains the source code for my personal portfolio.
-The code, design, animations, and assets may not be copied, modified,
-or redistributed without my written permission.
