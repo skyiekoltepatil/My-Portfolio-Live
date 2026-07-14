@@ -2,6 +2,8 @@
 
 A modern, responsive, and beautifully designed personal portfolio website built to showcase my skills, experience, and projects as a Creative Developer.
 
+**🌍 Live Demo:** [https://bhushankolte.netlify.app](https://bhushankolte.netlify.app)
+
 ## 📸 Preview
 
 ![Portfolio Preview](./website-demo-image/image.png)
@@ -56,6 +58,10 @@ Feel free to reach out for collaborations or just a friendly chat!
 - **LinkedIn**: [Bhushan Kolte](https://www.linkedin.com/in/bhushan-kolte-458561380/)
 - **GitHub**: [@skyiekoltepatil](https://github.com/skyiekoltepatil)
 
-## 📄 License
+---
 
-This project is open-source and available for anyone to learn from, use, and modify.
+Copyright © 2026 Bhushan Kolte.
+
+This repository contains the source code for my personal portfolio.
+The code, design, animations, and assets may not be copied, modified,
+or redistributed without my written permission.
